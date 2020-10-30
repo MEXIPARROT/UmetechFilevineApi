@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5B47985A-D9FA-4099-9D13-C73B644D0B0B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FilevineLibrary</RootNamespace>
+    <AssemblyName>FilevineLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Filevine.PublicApi.Models, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FilevineSDK.1.1.3\lib\net462\Filevine.PublicApi.Models.dll</HintPath>
+    </Reference>
+    <Reference Include="FilevineSDK, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FilevineSDK.1.1.3\lib\net462\FilevineSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.6.10.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.6.10\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FilevineWebAPI\FilevineOperatingAccounts.cs" />
+    <Compile Include="FilevineWebAPI\FilevineContacts.cs" />
+    <Compile Include="FilevineWebAPI\FilevineProjects.cs" />
+    <Compile Include="FilevineWebAPI\Objects\addresses\addresses.cs" />
+    <Compile Include="FilevineWebAPI\Objects\addresses\addressesId.cs" />
+    <Compile Include="FilevineWebAPI\Objects\OperatingAccount.cs" />
+    <Compile Include="FilevineWebAPI\Objects\dataObject.cs" />
+    <Compile Include="FilevineWebAPI\Objects\itemId.cs" />
+    <Compile Include="FilevineWebAPI\Objects\Expense.cs" />
+    <Compile Include="FilevineWebAPI\Objects\projects.cs" />
+    <Compile Include="FilevineWebAPI\Objects\projectTypeId.cs" />
+    <Compile Include="FilevineWebAPI\Request\OperatingAccountRequest.cs" />
+    <Compile Include="FilevineWebAPI\Request\ProjectNumberRequest.cs" />
+    <Compile Include="FilevineWebAPI\Response\OperatingAccountResponse.cs" />
+    <Compile Include="FilevineWebAPI\Objects\emails\emailId.cs" />
+    <Compile Include="FilevineWebAPI\Objects\emails\emails.cs" />
+    <Compile Include="FilevineWebAPI\Objects\phones\phoneId.cs" />
+    <Compile Include="FilevineWebAPI\Objects\phones\phones.cs" />
+    <Compile Include="FilevineWebAPI\Objects\personId.cs" />
+    <Compile Include="FilevineWebAPI\Objects\items.cs" />
+    <Compile Include="FilevineWebAPI\Objects\link.cs" />
+    <Compile Include="FilevineWebAPI\Objects\rootDocFolderId.cs" />
+    <Compile Include="FilevineWebAPI\Objects\clientId.cs" />
+    <Compile Include="FilevineWebAPI\Objects\projectId.cs" />
+    <Compile Include="FilevineWebAPI\Request\ContactRequest.cs" />
+    <Compile Include="FilevineWebAPI\Response\ContactResponse.cs" />
+    <Compile Include="FilevineWebAPI\Response\ProjectNumberResponse.cs" />
+    <Compile Include="FilevineWebAPI\Response\ProjectTypeResponse.cs" />
+    <Compile Include="FilevineWebClient.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="FilevineCollection.cs" />
+    <Compile Include="FilevineProject.cs" />
+    <Compile Include="FilevineSetting.cs" />
+    <Compile Include="FilevineWebAPI\APICaller.cs" />
+    <Compile Include="FilevineWebAPI\Request\FilevineSession.cs" />
+    <Compile Include="FilevineWebAPI\Response\FilevineSessionResponse.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PCLawData\PCLawData.csproj">
+      <Project>{5c71ab14-0fb6-4b26-83f5-6baf8b63935b}</Project>
+      <Name>PCLawData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

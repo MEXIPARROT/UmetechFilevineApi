@@ -1,0 +1,8 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <ItemGroup>
+        <ConfigFile Include="$(MSBuildThisFileDirectory)..\FilevineSDKlog4net.config"/>
+    </ItemGroup>
+    <Target Name="CopyFilevineSdkFiles">
+        <Copy SourceFiles="@(ConfigFile)" DestinationFolder="$(TargetDir)" />
+    </Target>
+</Project>

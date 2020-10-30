@@ -1,0 +1,46 @@
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApiConnection.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApiConnection.csproj.CoreCompileInputs.cache
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineApi.exe.config
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineApi.exe
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineApi.pdb
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\Filevine.PublicApi.Models.dll
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineSDK.dll
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\log4net.dll
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\RestSharp.dll
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\log4net.xml
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\RestSharp.xml
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApiConnection.csproj.CopyComplete
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApi.exe
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApi.pdb
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineLibrary.dll
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineLibrary.pdb
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineLibrary.dll.config
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\PCLawData.exe
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\PCLawData.pdb
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\PCLawData.exe.config
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\PCLawToFilevineGL.dll
+C:\Users\miche\source\repos\FilevineApi\FilevineApi\bin\Debug\PCLawToFilevineGL.pdb
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineApi.exe.config
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineApi.exe
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineApi.pdb
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineLibrary.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\log4net.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\PCLawData.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\RestSharp.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineSDK.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\Filevine.PublicApi.Models.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineLibrary.pdb
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\FilevineLibrary.dll.config
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\PCLawData.pdb
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\PCLawData.dll.config
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\log4net.xml
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\bin\Debug\RestSharp.xml
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApiConnection.csprojAssemblyReference.cache
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApiConnection.csproj.CoreCompileInputs.cache
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApiConnection.csproj.CopyComplete
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApi.exe
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\FilevineApi\obj\Debug\FilevineApi.pdb

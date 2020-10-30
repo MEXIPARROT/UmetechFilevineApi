@@ -1,0 +1,7 @@
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\PCLawData\bin\x86\Debug\PCLawData.dll.config
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\PCLawData\bin\x86\Debug\PCLawData.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\PCLawData\bin\x86\Debug\PCLawData.pdb
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\PCLawData\obj\x86\Debug\PCLawData.csproj.CoreCompileInputs.cache
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\PCLawData\obj\x86\Debug\PCLawData.dll
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\PCLawData\obj\x86\Debug\PCLawData.pdb
+C:\Users\Michel Rodriguez\source\repos\FilevineApi\PCLawData\obj\x86\Debug\PCLawData.csprojAssemblyReference.cache

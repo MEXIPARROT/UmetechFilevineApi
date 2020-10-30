@@ -1,0 +1,2 @@
+C:\Users\miche\source\repos\FilevineApi\FilevineAPI2\obj\Debug\FilevineAPI2.csprojAssemblyReference.cache
+C:\Users\miche\source\repos\FilevineApi\FilevineAPI2\obj\Debug\FilevineAPI2.csproj.CoreCompileInputs.cache
